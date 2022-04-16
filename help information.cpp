@@ -56,4 +56,30 @@ int main()
     cout << "vvedite znachenie AL - "; // Вывели текст
     cin >> AL; // Считали значение с клавиатуры и записали в AL
     cout << "AL = " << AL; // Вывели значение, которое мы записывали в AL
+
+    float LG = 44.4444444; // У float после запятой только 6 или 7 цифер
+    double OL = 44.4444444; // У double может быть до 15 цифр после запятой
+
+    bool BU1 = true; // В булевой переменной True = 1
+    bool BU2 = false; // False = 0
+
+    char CH1 = 'h'; /* char используется для хранения одного символа. Символ только в одинарных кавычках
+    Кроме того, вы можете использовать значения ASCII для отображения определенных символов:
+    Справочник по ASCII : https://www.w3schools.com/charsets/ref_html_ascii.asp */
+    char ZNAK64 = '64';
+    cout << ZNAK64;
+
+    string greeting = "Hello, my dear friend"; // String хранит в переменной текст
+    cout << greeting; // указав название переменной мы выводим текст этой переменной в string
+    // Чтоб он работал, нужно - #include <string>
+
+
+    // ОПЕРАТОРЫ С++ :
+        int SUMMA = 50 + 50; // Знак "+" значит прибавление
+        int SUMMA2 = SUMMA + 50;
+        int SUMMA3 = SUMMA2 + 50;
+        cout << SUMMA3;
+
+        int AF = 90 - 60; // Знак "-" значит отнимание
+        int JL = 2 * 2; // Знак "*" значит умножение
 }
